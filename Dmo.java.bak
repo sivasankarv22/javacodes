@@ -1,0 +1,10 @@
+class Dmo 
+{
+	public static void main(String[] args) 
+	{
+		String Buffer s1=new String Buffer("Hello");
+		String Buffer s2=new String Buffer("Hello");
+		System.out.println(s1==s2);
+		System.out.println(s1.equals(s2));
+	}
+}

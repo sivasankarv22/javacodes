@@ -1,0 +1,35 @@
+class  Dog 
+{
+	String color;
+	int cost;
+	String bread;
+	String name;
+}
+void eats()
+{
+	System.out.println("Dog eats");
+}
+void braks()
+{
+	System.out.println("Dog braks");
+}
+void bite()
+{
+	System.out.println("Dog bite");
+}
+void sleep()
+{
+	System.out.println("Dog sleep");
+}
+class DogLaunch
+{
+	public static void main(String[]args)
+	{
+		Dog d = new Dog();
+		d.eats();
+		d.braks();
+		d.bits();
+		d.sleep();
+	}
+}
+}

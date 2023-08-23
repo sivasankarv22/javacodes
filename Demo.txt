@@ -1,0 +1,7 @@
+class Demo
+{
+public static void main(String[]args)
+{
+String s1="java programming";
+(s1.reverse());
+System.out.print(s1);
